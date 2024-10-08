@@ -5,5 +5,5 @@ Ich bin ein leidenschaftlicher Lernender mit Interesse an IT und Systemadministr
 
 ## Fähigkeiten
 - Windows Installation
-- Active Directory
+- Active Directory Test
 
