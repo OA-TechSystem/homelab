@@ -1,4 +1,4 @@
-# IP-Plan für Homelab
+# IP-Plan
 
 ## 1. Externes Netzwerk / Router
 | Gerät       | NIC / Port | IP-Adresse     | Subnetzmaske   | Gateway        | Bemerkung         |
@@ -23,4 +23,5 @@
 - Alle Clients nutzen den Server als primären DNS  
 - Subnetz 192.168.137.0/24 für internes vSwitch  
 - Subnetz 192.168.178.0/24 für externes LAN / Internet  
+
 
