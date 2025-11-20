@@ -16,12 +16,13 @@
 ## 3. DNS / AD-Server
 | Server             | NIC        | IP-Adresse      | Bemerkung        |
 |-------------------|-----------|----------------|-----------------|
-| Windows Server     | NIC1       | 192.168.178.20 | DNS für Clients  |
-| Windows Server     | NIC2       | 192.168.137.1  | NAT / Domain     |
+| Windows Server     | vNIC1       | 192.168.178.20 | DNS für Clients  |
+| Windows Server     | vNIC2       | 192.168.137.1  | NAT / Domain     |
 
 ## 4. Bemerkungen
 - Alle Clients nutzen den Server als primären DNS  
 - Subnetz 192.168.137.0/24 für internes vSwitch  
 - Subnetz 192.168.178.0/24 für externes LAN / Internet  
+
 
 
