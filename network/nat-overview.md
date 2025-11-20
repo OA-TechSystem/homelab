@@ -1,4 +1,4 @@
-# NAT Overview
+# NAT Overview (Server)
 
 ## 1. Zweck
 - Interne VMs (192.168.137.0/24) sollen Internetzugang haben.
@@ -23,5 +23,6 @@
 - NAT muss **aktiviert** sein (PowerShell oder ICS).  
 - Interne VMs dürfen nur **Server als Gateway** nutzen.  
 - IPv6-Internetzugang läuft über NIC1 direkt, optional kann NAT auch IPv6 weiterleiten.  
+
 
 
