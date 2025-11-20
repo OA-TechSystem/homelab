@@ -12,7 +12,7 @@
 | Externes Netzwerk              | 192.168.178.0/24              | Host + Router                              |
 | Firewall                       | Windows-Firewall auf Server   |                                            |
 | DNS-Server für VMs             | 192.168.137.1 (Server DNS)    | Primär, für Domain-Auflösung               |
-| Optionale öffentliche DNS      | 8.8.8.8                       | Backup                                     |
+| Optionale öffentliche DNS      | 8.8.8.8                       | Backup, Google DNS                         |
 
 ## 3. Funktionsweise
 1. Server empfängt Daten von internen Clients über NIC2 (192.168.137.x).  
@@ -23,4 +23,5 @@
 - NAT muss **aktiviert** sein (PowerShell oder ICS).  
 - Interne VMs dürfen nur **Server als Gateway** nutzen.  
 - IPv6-Internetzugang läuft über NIC1 direkt, optional kann NAT auch IPv6 weiterleiten.  
+
 
