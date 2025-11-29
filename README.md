@@ -6,8 +6,20 @@ Ziel ist es, ein kleines, funktionsfähiges Netzwerk mit folgenden Komponenten a
 
 Der Windows Server wurde zu einem Domain Controller hochgestuft, und zwei Windows Clients wurden erfolgreich in die Domäne eingebunden. Der Internetzugang läuft über den Server. 
 
+## Active Directory
+
+### Organisationseinheiten (OEs)
+- `IT-Abteilung` – für Mitarbeiter in der IT  
+- `Office-Abteilung` – für Mitarbeiter im Office  
+
+### Gruppen
+- `IT-Mitarbeiter` – administrative Rechte für IT-Mitarbeiter  
+- `Mitarbeiter` – Standardbenutzerrechte  
+
+In jeder OE wurden Benutzerkonten angelegt, mit den Gruppen verknüpft und erfolgreich getestet.  
 
 ---
+
 
 ## Übersicht der virtuellen Maschinen
 
