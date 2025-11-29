@@ -23,8 +23,37 @@
 | Anmeldung mit Domänenkonto | ✓ |
 | Domain Join von Clients | ✓ |
 
+## 5. Organisationsstruktur
+- **Organisationseinheiten (OEs):**
+  - `IT-Mitarbeiter`
+  - `Mitarbeiter`
+
+- **Gruppen:**
+  - **IT-Mitarbeiter** → Berechtigung für administrative Aufgaben  
+  - **Mitarbeiter** → Standardbenutzerrechte  
+
+- **Benutzerkonten:**
+  - `Admin01` → Mitglied IT-Mitarbeiter  
+  - `User01` → Mitglied Mitarbeiter  
+  - `User02` → Mitglied Mitarbeiter  
+
+---
+
+## 6. Test der Active Directory Konfiguration
+| Test | Ergebnis |
+|------|----------|
+| Anmeldung `Admin01` am Client | ✓ Erfolgreich |
+| Anmeldung `User01` am Client | ✓ Erfolgreich |
+| Anmeldung `User02` am Client | ✓ Erfolgreich |
+| Zugriff auf freigegebene Ressourcen | ✓ Berechtigungen korrekt |
+| Gruppenmitgliedschaft prüfen | ✓ Richtig zugewiesen |
+
 ---
 
 ## 📝 Zusammenfassung
-AD DS ist vollständig funktionsfähig. Clients können Benutzerkonten erstellen, Gruppenrichtlinien anwenden und in die Domäne beitreten.
+Die AD-Struktur ist vollständig eingerichtet. Gruppen und Benutzer sind erstellt, Testlogins funktionieren.  
+Damit bildet das Setup ein kleines, funktionierendes Domänennetzwerk ab.
+
+---
+
 
