@@ -25,8 +25,8 @@
 
 ## 5. Organisationsstruktur
 - **Organisationseinheiten (OEs):**
-  - `IT-Mitarbeiter`
-  - `Mitarbeiter`
+  - `IT-Abteilung`
+  - `Büro`
 
 - **Gruppen:**
   - **IT-Mitarbeiter** → Berechtigung für administrative Aufgaben  
