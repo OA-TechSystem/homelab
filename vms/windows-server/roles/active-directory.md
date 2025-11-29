@@ -26,14 +26,14 @@
 ## 5. Organisationsstruktur
 - **Organisationseinheiten (OEs):**
   - `IT-Abteilung`
-  - `Büro`
+  - `Office-Abteilung`
 
 - **Gruppen:**
-  - **IT-Mitarbeiter** → Berechtigung für administrative Aufgaben  
+  - **IT-Mitarbeiter** → Höhere Berechtigungen
   - **Mitarbeiter** → Standardbenutzerrechte  
 
 - **Benutzerkonten:**
-  - `Admin01` → Mitglied IT-Mitarbeiter  
+  - `Admin01` → Mitglied IT-Mitarbeiter
   - `User01` → Mitglied Mitarbeiter  
   - `User02` → Mitglied Mitarbeiter  
 
